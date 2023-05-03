@@ -1,0 +1,75 @@
+.container {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.user-details-card {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  border-radius: 3rem;
+  box-shadow: 0 1rem 2rem hsl(0 0% 0% / 20%);
+  width: 350px;
+  height: fit-content;
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.user-info img {
+  border-radius: 50%;
+}
+.user-info span {
+  margin-bottom: 10px;
+  position: relative;
+}
+.user-info span sup {
+  font-size: 2em;
+  color: rgb(2, 162, 2);
+}
+.progress {
+  margin-bottom: 25px;
+}
+
+.progress p {
+  font-size: large;
+  font-weight: 600;
+}
+.progress-bar {
+  border-radius: 20px;
+  height: 10px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.progress-bar::-webkit-progress-value {
+  background-color: orange;
+}
+.progress-bar::-webkit-progress-bar {
+  background-color: rgba(255, 166, 0, 0.147);
+}
+
+.profile-analysis {
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile-analysis div {
+  display: flex;
+  flex-direction: column;
+}
+
+.number {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.vertical-line {
+  border-left: 2px solid #ccc;
+}

@@ -1,10 +1,9 @@
-import User from "../User/User"
-import dummyUsers from '../../data/dummyUser';
+import User from "../User/User";
+import dummyUsers from "../../data/dummyUser";
 
 function UserList() {
-
   return (
-    <div style={{width:'70%',margin:'10px'}}>
+    <div style={{ width: "70%", margin: "10px" }}>
       <table>
         <thead>
           <tr>
@@ -15,15 +14,13 @@ function UserList() {
           </tr>
         </thead>
         <tbody>
-          {
-            dummyUsers.map(user=>{
-              return <User key={user.id} user={user}/>
-            })
-          }
+          {dummyUsers.map((user) => {
+            return <User key={user.id} user={user} />;
+          })}
         </tbody>
       </table>
     </div>
-  )
+  );
 }
 
-export default UserList
+export default UserList;
