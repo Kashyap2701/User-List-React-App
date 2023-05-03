@@ -1,0 +1,22 @@
+.user-details{
+    display: flex;
+}
+
+.user-details img{
+    border-radius: 50%;
+}
+
+.user-details div{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+    justify-content: space-around;
+}
+
+.user-details div span:first-child{
+    font-weight: 700;
+}
+
+.user-details div span:last-child{
+    color: rgb(66, 66, 66);
+}
