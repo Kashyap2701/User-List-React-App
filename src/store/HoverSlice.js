@@ -10,5 +10,5 @@ const hoverSlice = createSlice({
     }
 })
 
-export const hoverActions = hoverActions.hoverActions;
+export const hoverActions = hoverSlice.hoverActions;
 export default hoverSlice;
