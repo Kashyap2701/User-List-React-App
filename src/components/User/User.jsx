@@ -1,4 +1,6 @@
+/* eslint-disable no-unused-vars */
 /* eslint-disable react/prop-types */
+import React from "react";
 import Profile from "../Profile/Profile";
 import { Trash2, Lock } from "react-feather";
 
