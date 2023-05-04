@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+img {
+  -webkit-user-drag: none;
+}
+
+table {
+  display: table;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 1rem;
+}
+
+th {
+  text-align: left;
+}
+
+select {
+  width: 130px;
+  padding: 10px 12px;
+  font-size: 16px;
+  border-radius: 3px;
+  background-color: rgba(51, 51, 51, 0.05);
+  color: #333333;
+  cursor: pointer;
+  border: none;
+  border-right: 10px solid transparent;
+  outline: 0.5px solid rgba(51, 51, 51, 0.095);
+}
+
+select > option {
+  background-color: rgba(51, 51, 51, 0.05);
+  color: #333;
+  cursor: pointer;
+}
+
+button {
+  width: 200px;
+  background-color: orange;
+  padding: 10px;
+  color: white;
+  font-size: larger;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.App {
+  display: flex;
+  background-color: #d8d8d8;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  background-color: white;
+  height: 85%;
+  width: 60%;
+  border-radius: 5px;
+  position: relative;
+}
