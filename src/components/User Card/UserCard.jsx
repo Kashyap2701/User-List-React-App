@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+import React from "react";
 import style from "./UserCard.module.css";
 import userData from "../../data/dummyUser";
 
