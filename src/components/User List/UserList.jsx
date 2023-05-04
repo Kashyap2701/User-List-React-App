@@ -5,7 +5,7 @@ import dummyUsers from "../../data/dummyUser";
 
 function UserList() {
   return (
-    <div style={{ width: "70%", margin: "10px" }}>
+    <div style={{ minWidth: "80%", margin: "10px", overflow: "auto" }}>
       <table>
         <thead>
           <tr>

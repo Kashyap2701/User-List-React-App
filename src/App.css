@@ -70,6 +70,7 @@ button {
   display: flex;
   background-color: white;
   height: 85%;
-  width: 80%;
+  width: 60%;
   border-radius: 5px;
+  position: relative;
 }
