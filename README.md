@@ -2,6 +2,8 @@
 
 This is a React application that displays a list of users on the left side and shows the details of a user on the right side when hovered over. The details of the user are displayed in a card format. The user list on the left side is populated with static dummy data for now.
 
+- Live Link : https://jade-crumble-2e9bfe.netlify.app/
+
 ## Features
 
 - Display a list of users on the left side.
