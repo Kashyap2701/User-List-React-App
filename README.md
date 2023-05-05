@@ -28,7 +28,6 @@ The following dependencies are used in this project:
 
 - react
 - react-dom
-- react-scripts
 - react-feather
 - @reduxjs/toolkit
 - react-redux
